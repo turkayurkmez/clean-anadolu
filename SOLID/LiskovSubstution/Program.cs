@@ -16,3 +16,11 @@ IArea rectangle = new Geometry().CreateRectangle(5,7);
 
 Console.WriteLine($"Alan: {rectangle.Area()}");
 
+ExcelDataSource excelDataSource = new ExcelDataSource();
+SqlDataSource sqlDataSource = new SqlDataSource();
+XMLDataSource xmlDataSource = new XMLDataSource();
+
+DataSourceManager dataSourceManager = new DataSourceManager();
+dataSourceManager.SaveData(excelDataSource);
+dataSourceManager.SaveData(sqlDataSource);
+//dataSourceManager.SaveData(xmlDataSource);
