@@ -1,0 +1,3 @@
+Tüm refactoring tekniklerini içeren bir kaynak listesi.
+
+https://refactoring.guru/refactoring/techniques
